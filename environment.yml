@@ -1,0 +1,9 @@
+name: silph-scope
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  - pip
+  - numba
+  - pip:
+    - -e .[dev]  # Installs your src/ code + the dev dependency (pytest)

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# Environments
+.env
+.venv/
+env/
+
+# Data and runs
+data/
+runs/
+refs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
